@@ -1,0 +1,18 @@
+#!/bin/bash
+set -o errexit
+set -o nounset
+set -o pipefail
+
+git push
+
+# Extract version from pyproject.toml if it exists, otherwise fall back to setup.py
+VERSION=$(toml2json Cargo.toml | jq .package.version -rc)
+
+# Tag the commit with the extracted version
+git tag "$VERSION"
+git push --tags
+
+cargo build
+
+# Upload to crates
+cargo publish
