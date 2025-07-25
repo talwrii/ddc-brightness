@@ -1,6 +1,6 @@
 [package]
 name = "ddc-brightness"
-version = "1.1.0"
+version = "1.1.1"
 edition = "2021"
 description = "Set and increase or decrease brightness of external monitors using DDC. Based on lumix"
 license = "MIT"
