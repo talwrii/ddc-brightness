@@ -1,10 +1,8 @@
-# lumix
+# ddc-brightness
 
-A simple, fast command-line tool for controlling monitor brightness on Windows and Linux. Designed for easy brightness management across multiple displays.
+A simple, fast command-line tool for controlling monitor brightness on Windows and Linux. Designed for easy brightness management across multiple displays. Supports increasing or decreasing brightness by a set amount.
 
-[![GitHub](https://img.shields.io/badge/github-Yrrrrrf%2Flumix-58A6FF?style=for-the-badge&logo=github)](https://github.com/Yrrrrrf/lumix)
-[![Crates.io](https://img.shields.io/crates/v/lumix.svg?style=for-the-badge&logo=rust)](https://crates.io/crates/lumix)
-[![License](https://img.shields.io/github/license/Yrrrrrf/dev_utils.svg?style=for-the-badge)](./LICENSE)
+This is a fork of [lumix](https://github.com/Yrrrrrf/lumix).
 
 ## Features
 
@@ -14,6 +12,7 @@ A simple, fast command-line tool for controlling monitor brightness on Windows a
 - 🎯 Simple command interface
 - 📈 Show brightness range for each monitor
 - 🎨 Formatted output
+- 💯 Changing brightness by a relative amount
 
 ## Usage
 
@@ -21,16 +20,16 @@ A simple, fast command-line tool for controlling monitor brightness on Windows a
 
 - Get brightness:
 ```bash
-lumix get  # List all monitors and their brightness
-lumix get 12345  # Specific monitor brightness
+ddc-brightness get  # List all monitors and their brightness
+ddc-brightness get 12345  # Specific monitor brightness
 ```
 
 - Set brightness:
 ```bash
-lumix set 75  # All monitors to 75%
-lumix set 10+  # Increase all monitors by 10%
-lumix set 5-  # Decrease all monitors by 5%
-lumix set 12345 50  # Specific monitor to 50%
+ddc-brightness set 75  # All monitors to 75%
+ddc-brightness set 10+  # Increase all monitors by 10%
+ddc-brightness set 5-  # Decrease all monitors by 5%
+ddc-brightness set 12345 50  # Specific monitor to 50%
 ```
 
 ### Output Example

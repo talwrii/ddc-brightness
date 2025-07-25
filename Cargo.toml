@@ -1,10 +1,10 @@
 [package]
-name = "lumix"
-version = "0.2.0" # Bumping version for the major refactor
+name = "ddc-brightness"
+version = "1.0.0"
 edition = "2021"
-description = "A simple, fast tool to control monitor features like brightness via DDC/CI."
+description = "Set and increase or decrease brightness of external monitors using DDC. Based on lumix"
 license = "MIT"
-repository = "https://github.com/Yrrrrrf/lumix"
+repository = "https://github.com/talwrii/ddc-brightness"
 keywords = ["brightness", "ddc", "control", "monitor", "cli"]
 
 [dependencies]
