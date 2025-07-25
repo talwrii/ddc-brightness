@@ -12,7 +12,10 @@ const DIM: &str = "\x1b[2m";
 
 /// A simple, fast tool to control monitor features like brightness via DDC/CI.
 #[derive(Parser, Debug)]
-#[command(author, version, about, long_about = None)]
+#[command(author, version, about, long_about = None, after_help="@readwithai 📖 https://readwithai.substack.com/ ⚡️ machine-aided reading ✒️")]
+
+
+
 struct Cli {
     #[command(subcommand)]
     command: Command,
