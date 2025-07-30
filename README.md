@@ -2,7 +2,7 @@
 **@readwithai** - [X](https://x.com/readwithai) - [blog](https://readwithai.substack.com/) - [machine-aided reading](https://www.reddit.com/r/machineAidedReading/) - [📖](https://readwithai.substack.com/p/what-is-reading-broadly-defined
 )[⚡️](https://readwithai.substack.com/s/technical-miscellany)[🖋️](https://readwithai.substack.com/p/note-taking-with-obsidian-much-of)
 
-**This has been merged into lumix: I suggest you use lumix instead**
+**This has been merged into lumix: I suggest you use lumix instead. I tried to delete this repository - but could not because it has too many downloads.**
 
 A simple, fast command-line tool for controlling monitor brightness on Windows and Linux. Designed for easy brightness management across multiple displays. Supports increasing or decreasing brightness by a set amount.
 
